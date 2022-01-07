@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T11:14:54.060Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="_BHFVYKLq3aXvhD1Pw_B" version="16.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-07T11:29:47.154Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="8FHoL9LZw1UiPD2aAZ7W" version="16.2.2" type="github">
   <diagram id="29DX_shyAP1snW-bjdit" name="Page-1">
     <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -48,6 +48,9 @@
         </mxCell>
         <mxCell id="RFMRdTvg9sNST-bDp5sf-26" value="&lt;span&gt;提交操作（耗时操作）&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="30" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RFMRdTvg9sNST-bDp5sf-47" value="spring 的bean默认是single的，私有线程池不能是全局变量需要再方法中定义" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="90" width="420" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
