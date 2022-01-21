@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-11T11:27:48.909Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="gPEl2tDFTAhGciv44XZL" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-21T06:47:18.183Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="bhl8e-wjtyTy4R2hIUIH" version="16.2.7" type="github">
   <diagram id="29DX_shyAP1snW-bjdit" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,14 +49,29 @@
         <mxCell id="RFMRdTvg9sNST-bDp5sf-26" value="&lt;span&gt;提交操作（耗时操作）&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="30" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="v3_mXQVLykBW7pPXtYTT-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v3_mXQVLykBW7pPXtYTT-1" target="v3_mXQVLykBW7pPXtYTT-4">
+        <mxCell id="v3_mXQVLykBW7pPXtYTT-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="v3_mXQVLykBW7pPXtYTT-1" target="v3_mXQVLykBW7pPXtYTT-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v3_mXQVLykBW7pPXtYTT-1" value="10&lt;br&gt;9&lt;br&gt;8&lt;br&gt;7&lt;br&gt;6&lt;br&gt;5&lt;br&gt;4&lt;br&gt;3&lt;br&gt;2&lt;br&gt;1&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="v3_mXQVLykBW7pPXtYTT-1" value="10&lt;br&gt;9&lt;br&gt;8&lt;br&gt;7&lt;br&gt;6&lt;br&gt;5&lt;br&gt;4&lt;br&gt;3&lt;br&gt;2&lt;br&gt;1&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="155" y="535" width="30" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="v3_mXQVLykBW7pPXtYTT-4" value="1.其他9个线程都要等待2秒&lt;br&gt;2.其他8个线程还要等待2秒&lt;br&gt;3.其他7个线程还要等待2秒&lt;br&gt;4.其他6个线程还要等待2秒&lt;br&gt;5.其他5个线程还要等待2秒&lt;br&gt;6.其他4个线程还要等待2秒&lt;br&gt;7.其他3个线程还要等待2秒&lt;br&gt;8. 其他2个线程还要等待2秒" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="v3_mXQVLykBW7pPXtYTT-4" value="1.其他9个线程都要等待2秒&lt;br&gt;2.其他8个线程还要等待2秒&lt;br&gt;3.其他7个线程还要等待2秒&lt;br&gt;4.其他6个线程还要等待2秒&lt;br&gt;5.其他5个线程还要等待2秒&lt;br&gt;6.其他4个线程还要等待2秒&lt;br&gt;7.其他3个线程还要等待2秒&lt;br&gt;8. 其他2个线程还要等待2秒" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="540" width="490" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="or9yDix9byzLxFbYb2XO-1" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="730" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="or9yDix9byzLxFbYb2XO-2" value="&lt;div&gt;&lt;span&gt;PASS特案类型接口调整：&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;目前是返回一个特案类型的code，然后我们官微自己去比对是否是特案的单子如果是就拦截掉。&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="720" width="1070" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="or9yDix9byzLxFbYb2XO-3" value="如果把接口改成，PASS直接返回特案类型结果的形式：&lt;br&gt;官微需要将需要校验那些特案的类型传给PASS，而返回值需要调整，如果保单不是特案类型返回报文为空就可以，如果是特案类型就将特案类型的code返回。&lt;br&gt;&lt;br&gt;当前PASS接口返回报文案例：&lt;br&gt;&lt;div&gt;{&quot;MsgBody&quot;:{&quot;Msg&quot;:{&quot;Result&quot;:&quot;{\&quot;workNo\&quot;:null,\&quot;code\&quot;:\&quot;00\&quot;}&quot;}}}&lt;/div&gt;&lt;div&gt;{&quot;MsgBody&quot;:{&quot;Msg&quot;:{&quot;Result&quot;:&quot;{\&quot;workNo\&quot;:null,\&quot;code\&quot;:\&quot;HMDKH\&quot;}&quot;}}}&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="820" width="1070" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="or9yDix9byzLxFbYb2XO-5" value="如果是把PASS接口改成，返回这个保单下面的所有特案类型，这样官微改动是最小的" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="950" width="1070" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="or9yDix9byzLxFbYb2XO-6" value="而对于多保单，可以做成传一个大的对象集合[{保单号、客户号、业务类型}, ...]和需要检验的特案类型集合。 返回值同样也是[{保单号、客户号、业务类型、校验结果}, ...]&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="1040" width="1070" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
