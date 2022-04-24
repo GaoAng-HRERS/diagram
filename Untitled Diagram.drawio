@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-24T13:55:45.226Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="me2xptSHjpC5-dWgCofF" version="17.4.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-24T14:03:26.278Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="YvfzC5m5-Eb9XqFfq4K3" version="17.4.4" type="github" pages="2">
   <diagram id="29DX_shyAP1snW-bjdit" name="多保单">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -84,14 +84,8 @@
         <mxCell id="RXps7sLKZuiFIHbuloCt-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RXps7sLKZuiFIHbuloCt-1" target="RXps7sLKZuiFIHbuloCt-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RXps7sLKZuiFIHbuloCt-1" value="专属图文" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="100" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RXps7sLKZuiFIHbuloCt-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RXps7sLKZuiFIHbuloCt-2" target="RXps7sLKZuiFIHbuloCt-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="RXps7sLKZuiFIHbuloCt-2" value="生日加保-保障视图" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-360" y="920" width="120" height="60" as="geometry" />
+        <mxCell id="RXps7sLKZuiFIHbuloCt-1" value="专属图文分享链接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RXps7sLKZuiFIHbuloCt-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RXps7sLKZuiFIHbuloCt-3" target="RXps7sLKZuiFIHbuloCt-12">
           <mxGeometry relative="1" as="geometry" />
@@ -99,17 +93,8 @@
         <mxCell id="RXps7sLKZuiFIHbuloCt-3" value="分享流水号，模板号，代理人工号，客户id、互动工具类型、旅程节点、推文地址" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-105" y="190" width="490" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RXps7sLKZuiFIHbuloCt-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RXps7sLKZuiFIHbuloCt-5" target="RXps7sLKZuiFIHbuloCt-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="RXps7sLKZuiFIHbuloCt-5" value="分享流水号，模板号，代理人工号，客户id，二维码还是链接的标识，保障视图链接地址" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="920" width="490" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RXps7sLKZuiFIHbuloCt-9" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="920" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="RXps7sLKZuiFIHbuloCt-11" value="携带参数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="290" y="170" width="60" height="20" as="geometry" />
+        <mxCell id="RXps7sLKZuiFIHbuloCt-11" value="链接携带参数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="170" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="RXps7sLKZuiFIHbuloCt-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RXps7sLKZuiFIHbuloCt-12" target="RXps7sLKZuiFIHbuloCt-23">
           <mxGeometry relative="1" as="geometry">
@@ -180,6 +165,83 @@
         </mxCell>
         <mxCell id="RXps7sLKZuiFIHbuloCt-39" value="数据落库/推送kafka" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RXps7sLKZuiFIHbuloCt-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RXps7sLKZuiFIHbuloCt-45" target="RXps7sLKZuiFIHbuloCt-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RXps7sLKZuiFIHbuloCt-45" value="生日加保-保障视图分享链接/二维码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1010" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RXps7sLKZuiFIHbuloCt-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RXps7sLKZuiFIHbuloCt-47" target="RXps7sLKZuiFIHbuloCt-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RXps7sLKZuiFIHbuloCt-47" value="分享流水号，模板号，代理人工号，客户id，二维码还是链接的标识，保障视图链接地址" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-115" y="1110" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RXps7sLKZuiFIHbuloCt-48" value="链接/二维码携带参数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1090" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RXps7sLKZuiFIHbuloCt-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RXps7sLKZuiFIHbuloCt-51" target="RXps7sLKZuiFIHbuloCt-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RXps7sLKZuiFIHbuloCt-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RXps7sLKZuiFIHbuloCt-51" target="RXps7sLKZuiFIHbuloCt-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RXps7sLKZuiFIHbuloCt-51" value="OPENID是否存在/已解绑" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="1200" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RXps7sLKZuiFIHbuloCt-52" value="存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1360" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RXps7sLKZuiFIHbuloCt-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="RXps7sLKZuiFIHbuloCt-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="1480" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RXps7sLKZuiFIHbuloCt-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RXps7sLKZuiFIHbuloCt-56" target="RXps7sLKZuiFIHbuloCt-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RXps7sLKZuiFIHbuloCt-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RXps7sLKZuiFIHbuloCt-56" target="RXps7sLKZuiFIHbuloCt-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="1420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RXps7sLKZuiFIHbuloCt-56" value="客户身份是否一致" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="1390" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RXps7sLKZuiFIHbuloCt-57" value="不存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="515" y="1550" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RXps7sLKZuiFIHbuloCt-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RXps7sLKZuiFIHbuloCt-59" target="RXps7sLKZuiFIHbuloCt-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RXps7sLKZuiFIHbuloCt-59" value="&lt;div&gt;1.官微需在iagent保障视图的链接上拼接客户身份一致的标识；&lt;/div&gt;&lt;div&gt;2.iagent会截取链接上的标识，和保障视图链接上原有的参数打开对应的页面&lt;/div&gt;&lt;div&gt;3.iagent埋点，数据给中台和datalake&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-45" y="1580" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RXps7sLKZuiFIHbuloCt-60" value="一致" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1550" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RXps7sLKZuiFIHbuloCt-62" value="拦截/提示话术" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="1580" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RXps7sLKZuiFIHbuloCt-63" value="不一致" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="1550" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RXps7sLKZuiFIHbuloCt-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RXps7sLKZuiFIHbuloCt-65" target="RXps7sLKZuiFIHbuloCt-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="386" y="1810" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="565" y="1780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RXps7sLKZuiFIHbuloCt-65" value="&lt;div&gt;1.官微需在iagent保障视图的链接上拼接未识别客户身份的标识；&lt;/div&gt;&lt;div&gt;2.iagent会截取链接上的标识，弹出投保人信息输入框，校验身份，校验通过，则打开保障视图页面&lt;/div&gt;&lt;div&gt;3.iagent埋点，数据给中台和datalake&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1575" width="390" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="RXps7sLKZuiFIHbuloCt-66" value="数据落库/推送kafka" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1750" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
