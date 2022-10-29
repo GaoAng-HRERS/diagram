@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-19T11:47:33.498Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="SOfgD2gmJju5K3VQMHS3" version="20.2.3" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-10-29T01:56:06.847Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="WjLDX_VllV-Ho-6m4s-N" version="20.5.1" type="github" pages="5">
   <diagram id="29DX_shyAP1snW-bjdit" name="多保单">
     <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1049,48 +1049,85 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZekQRkWjZHbtBqIUrS4B" name="第 5 页">
-    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-wEzvlYN51I9buTUznFv-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-wEzvlYN51I9buTUznFv-1" target="-wEzvlYN51I9buTUznFv-2">
+        <mxCell id="-wEzvlYN51I9buTUznFv-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-wEzvlYN51I9buTUznFv-1" target="-wEzvlYN51I9buTUznFv-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-wEzvlYN51I9buTUznFv-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-wEzvlYN51I9buTUznFv-1" target="-wEzvlYN51I9buTUznFv-5">
+        <mxCell id="-wEzvlYN51I9buTUznFv-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-wEzvlYN51I9buTUznFv-1" target="-wEzvlYN51I9buTUznFv-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-wEzvlYN51I9buTUznFv-1" value="短链接（唯一标识）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-wEzvlYN51I9buTUznFv-1" value="短链接（唯一标识）" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-wEzvlYN51I9buTUznFv-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-wEzvlYN51I9buTUznFv-2" target="-wEzvlYN51I9buTUznFv-9">
+        <mxCell id="-wEzvlYN51I9buTUznFv-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-wEzvlYN51I9buTUznFv-2" target="-wEzvlYN51I9buTUznFv-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-wEzvlYN51I9buTUznFv-2" value="进入人脸" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-wEzvlYN51I9buTUznFv-2" value="进入人脸" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-wEzvlYN51I9buTUznFv-4" value="&lt;ol&gt;&lt;li&gt;&lt;font color=&quot;#ff0000&quot;&gt;生成短链接的长链接地址&lt;/font&gt;&lt;/li&gt;&lt;li&gt;通过短链接进入官微，需要先判断用户是否绑定&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;根据唯一标识查询五要素为人脸、发送短信做准备&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;同意协议时第一次绑定官微会赠送积分，在这之前需要先给客&lt;br&gt;户生成会员号和userBind表中要插入iMap预绑定客户五要素&lt;/li&gt;&lt;li&gt;客户的预绑定数据的时效性、还是永久有效&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="-wEzvlYN51I9buTUznFv-4" value="&lt;ol&gt;&lt;li&gt;&lt;font color=&quot;#ff0000&quot;&gt;生成短链接的长链接地址&lt;/font&gt;&lt;/li&gt;&lt;li&gt;通过短链接进入官微，需要先判断用户是否绑定&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;根据唯一标识查询五要素为人脸、发送短信做准备&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;同意协议时第一次绑定官微会赠送积分，在这之前需要先给客&lt;br&gt;户生成会员号和userBind表中要插入iMap预绑定客户五要素&lt;/li&gt;&lt;li&gt;客户的预绑定数据的时效性、还是永久有效&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="540" y="40" width="390" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="-wEzvlYN51I9buTUznFv-5" value="保单列表首页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-wEzvlYN51I9buTUznFv-5" value="保单列表首页" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-wEzvlYN51I9buTUznFv-7" value="已绑定" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="-wEzvlYN51I9buTUznFv-7" value="已绑定" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="280" y="75" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-wEzvlYN51I9buTUznFv-8" value="未绑定" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="-wEzvlYN51I9buTUznFv-8" value="未绑定" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="150" y="120" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-wEzvlYN51I9buTUznFv-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-wEzvlYN51I9buTUznFv-9" target="-wEzvlYN51I9buTUznFv-11">
+        <mxCell id="-wEzvlYN51I9buTUznFv-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="-wEzvlYN51I9buTUznFv-9" target="-wEzvlYN51I9buTUznFv-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-wEzvlYN51I9buTUznFv-9" value="发送短信验证码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-wEzvlYN51I9buTUznFv-9" value="发送短信验证码" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-wEzvlYN51I9buTUznFv-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-wEzvlYN51I9buTUznFv-11" target="-wEzvlYN51I9buTUznFv-5">
+        <mxCell id="-wEzvlYN51I9buTUznFv-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="-wEzvlYN51I9buTUznFv-11" target="-wEzvlYN51I9buTUznFv-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-wEzvlYN51I9buTUznFv-11" value="进入协议页面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-wEzvlYN51I9buTUznFv-11" value="进入协议页面" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuAtzU4DyiQ07-2U0Cz7-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YuAtzU4DyiQ07-2U0Cz7-1" target="YuAtzU4DyiQ07-2U0Cz7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YuAtzU4DyiQ07-2U0Cz7-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YuAtzU4DyiQ07-2U0Cz7-1" target="YuAtzU4DyiQ07-2U0Cz7-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YuAtzU4DyiQ07-2U0Cz7-1" value="短信" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuAtzU4DyiQ07-2U0Cz7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YuAtzU4DyiQ07-2U0Cz7-2" target="YuAtzU4DyiQ07-2U0Cz7-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuAtzU4DyiQ07-2U0Cz7-2" value="协议" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuAtzU4DyiQ07-2U0Cz7-4" value="保单首页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuAtzU4DyiQ07-2U0Cz7-7" value="没有同意过协议" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="60" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YuAtzU4DyiQ07-2U0Cz7-8" value="已经同意过协议" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1186" y="190" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YuAtzU4DyiQ07-2U0Cz7-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YuAtzU4DyiQ07-2U0Cz7-9" target="YuAtzU4DyiQ07-2U0Cz7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YuAtzU4DyiQ07-2U0Cz7-9" value="首次绑定赠送积分已经赠送过积分则不再重复赠送" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuAtzU4DyiQ07-2U0Cz7-16" value="1.用户在提交短信验证码的时候，如果已经同意过协议（外部绑定也是默认走的另一套同意协议流程然后直接跳转保单首页）&lt;br&gt;&lt;br&gt;2.用户在提交短信验证码的时候，没有同意过协议（外部绑定时一套另外的同意协议流程）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="515" y="400" width="680" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
