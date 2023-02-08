@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T02:20:25.535Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="x7aB20VIZzs-3Q-M9mqO" version="20.8.13" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-02-08T01:59:52.250Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="X3p9tGXZrdQUQ7xUFEHv" version="20.8.15" type="github" pages="7">
   <diagram id="29DX_shyAP1snW-bjdit" name="多保单">
     <mxGraphModel dx="2261" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1222,7 +1222,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="S0ivF1vDi_J6Mmj_h53k" name="官位支付改造">
-    <mxGraphModel dx="2514" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3341" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1384,7 +1384,7 @@
         <mxCell id="yWwpeZs22Izk6Wsw98JF-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yWwpeZs22Izk6Wsw98JF-31" target="yWwpeZs22Izk6Wsw98JF-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0LGMg5dxiQGKNmWUb384-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yWwpeZs22Izk6Wsw98JF-31" target="0LGMg5dxiQGKNmWUb384-1">
+        <mxCell id="0LGMg5dxiQGKNmWUb384-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yWwpeZs22Izk6Wsw98JF-31" target="0LGMg5dxiQGKNmWUb384-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yWwpeZs22Izk6Wsw98JF-31" value="招行统一下单" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1396,53 +1396,133 @@
         <mxCell id="yWwpeZs22Izk6Wsw98JF-32" value="生成订单" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="570" y="1540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0LGMg5dxiQGKNmWUb384-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yWwpeZs22Izk6Wsw98JF-34" target="0LGMg5dxiQGKNmWUb384-6">
+        <mxCell id="0LGMg5dxiQGKNmWUb384-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yWwpeZs22Izk6Wsw98JF-34" target="0LGMg5dxiQGKNmWUb384-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yWwpeZs22Izk6Wsw98JF-34" value="调用方拉起支付" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="570" y="1640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0LGMg5dxiQGKNmWUb384-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yWwpeZs22Izk6Wsw98JF-39" target="0LGMg5dxiQGKNmWUb384-14">
+        <mxCell id="0LGMg5dxiQGKNmWUb384-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yWwpeZs22Izk6Wsw98JF-39" target="0LGMg5dxiQGKNmWUb384-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yWwpeZs22Izk6Wsw98JF-39" value="招行回调支付中心" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="1870" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0LGMg5dxiQGKNmWUb384-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0LGMg5dxiQGKNmWUb384-1" target="0LGMg5dxiQGKNmWUb384-3">
+        <mxCell id="0LGMg5dxiQGKNmWUb384-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0LGMg5dxiQGKNmWUb384-1" target="0LGMg5dxiQGKNmWUb384-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0LGMg5dxiQGKNmWUb384-1" value="中台支付中心" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="0LGMg5dxiQGKNmWUb384-1" value="中台支付中心" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="570" y="1330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0LGMg5dxiQGKNmWUb384-3" value="payment发起支付" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="0LGMg5dxiQGKNmWUb384-3" value="payment发起支付" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="570" y="1230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0LGMg5dxiQGKNmWUb384-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0LGMg5dxiQGKNmWUb384-6" target="yWwpeZs22Izk6Wsw98JF-39">
+        <mxCell id="0LGMg5dxiQGKNmWUb384-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0LGMg5dxiQGKNmWUb384-6" target="yWwpeZs22Izk6Wsw98JF-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0LGMg5dxiQGKNmWUb384-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0LGMg5dxiQGKNmWUb384-6" target="0LGMg5dxiQGKNmWUb384-11">
+        <mxCell id="0LGMg5dxiQGKNmWUb384-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0LGMg5dxiQGKNmWUb384-6" target="0LGMg5dxiQGKNmWUb384-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0LGMg5dxiQGKNmWUb384-6" value="支付结果" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="0LGMg5dxiQGKNmWUb384-6" value="支付结果" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="575" y="1740" width="110" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="0LGMg5dxiQGKNmWUb384-9" value="支付成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0LGMg5dxiQGKNmWUb384-9" value="支付成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="745" y="1790" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0LGMg5dxiQGKNmWUb384-11" value="？" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="0LGMg5dxiQGKNmWUb384-11" value="？" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="1870" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0LGMg5dxiQGKNmWUb384-13" value="支付失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0LGMg5dxiQGKNmWUb384-13" value="支付失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="455" y="1790" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0LGMg5dxiQGKNmWUb384-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0LGMg5dxiQGKNmWUb384-14" target="0LGMg5dxiQGKNmWUb384-16">
+        <mxCell id="0LGMg5dxiQGKNmWUb384-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0LGMg5dxiQGKNmWUb384-14" target="0LGMg5dxiQGKNmWUb384-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0LGMg5dxiQGKNmWUb384-14" value="支付中心回调payment" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="0LGMg5dxiQGKNmWUb384-14" value="支付中心回调payment" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="1980" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0LGMg5dxiQGKNmWUb384-16" value="payment回调发起支付系统" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="0LGMg5dxiQGKNmWUb384-16" value="payment回调发起支付系统" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="2090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZQ5cOBscsRchTtDAjEK-1" target="2ZQ5cOBscsRchTtDAjEK-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-1" value="公众号支付操作表流程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZQ5cOBscsRchTtDAjEK-2" target="2ZQ5cOBscsRchTtDAjEK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-2" value="外部系统往WeChatPayOutOrders表中新增一条数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="1370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZQ5cOBscsRchTtDAjEK-4" target="2ZQ5cOBscsRchTtDAjEK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-4" value="然后payment在往WeChatPays表中新增一条记录" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-6" value="再往WeChatPayExtends表中新增一条记录" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="1590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2ZQ5cOBscsRchTtDAjEK-8" target="2ZQ5cOBscsRchTtDAjEK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZQ5cOBscsRchTtDAjEK-8" target="2ZQ5cOBscsRchTtDAjEK-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-8" value="流程" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZQ5cOBscsRchTtDAjEK-12" target="2ZQ5cOBscsRchTtDAjEK-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-12" value="新增或更新/WeChatPayNotifies表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-14" value="预支付" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="1255" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-15" value="回调" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="1255" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-16" value="新增或更新WeChatPayNotifyExtends表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZQ5cOBscsRchTtDAjEK-18" target="2ZQ5cOBscsRchTtDAjEK-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-18" value="小程序支付操作流程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZQ5cOBscsRchTtDAjEK-19" target="2ZQ5cOBscsRchTtDAjEK-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-19" value="流程" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="1255" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-21" value="新增WeChatPaymentOrders表记录" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-860" y="1370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-23" value="预支付" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="1270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="2ZQ5cOBscsRchTtDAjEK-26" source="2ZQ5cOBscsRchTtDAjEK-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-545" y="1160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2ZQ5cOBscsRchTtDAjEK-26" target="2ZQ5cOBscsRchTtDAjEK-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-26" value="新增或更新/WeChatPayNotifies表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="1370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-27" value="回调" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="1270" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2ZQ5cOBscsRchTtDAjEK-28" value="新增或更新WeChatPayNotifyExtends表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="1480" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
