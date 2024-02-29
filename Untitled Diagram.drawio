@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T08:28:57.951Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="O5DvakkGAvE6QFLS64eh" version="22.0.4" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2024-02-29T09:37:48.537Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ewSZO4f73FcREiF6IVDI" version="22.1.21" type="github" pages="10">
   <diagram id="29DX_shyAP1snW-bjdit" name="多保单">
-    <mxGraphModel dx="2620" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2261" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1932,21 +1932,57 @@
     </mxGraphModel>
   </diagram>
   <diagram id="h2KRad_tuJfEARqh1Klu" name="第 10 页">
-    <mxGraphModel dx="1687" dy="892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="BxymyG2haDB7-ppv9p5n-1" value="系统通知消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="40" width="120" height="60" as="geometry" />
+        <mxCell id="XcywVWifhoP0tnljsdN_-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XcywVWifhoP0tnljsdN_-3" target="XcywVWifhoP0tnljsdN_-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BxymyG2haDB7-ppv9p5n-2" value="保单首页信箱红点通知" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="40" width="120" height="60" as="geometry" />
+        <mxCell id="XcywVWifhoP0tnljsdN_-3" value="请求预签约V3接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BxymyG2haDB7-ppv9p5n-3" value="站内代办消息红点通知" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="40" width="120" height="60" as="geometry" />
+        <mxCell id="XcywVWifhoP0tnljsdN_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XcywVWifhoP0tnljsdN_-4" target="XcywVWifhoP0tnljsdN_-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BxymyG2haDB7-ppv9p5n-4" value="站内历史消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="40" width="120" height="60" as="geometry" />
+        <mxCell id="XcywVWifhoP0tnljsdN_-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XcywVWifhoP0tnljsdN_-4" target="XcywVWifhoP0tnljsdN_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XcywVWifhoP0tnljsdN_-4" target="XcywVWifhoP0tnljsdN_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XcywVWifhoP0tnljsdN_-4" target="XcywVWifhoP0tnljsdN_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-4" value="请求头参数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XcywVWifhoP0tnljsdN_-6" target="XcywVWifhoP0tnljsdN_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-6" value="Wechatpay-Serial【微信支付平台证书序列号】" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-8" value="【微信支付平台证书序列号】需要请求/v3/certificates接口获取" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XcywVWifhoP0tnljsdN_-10" target="XcywVWifhoP0tnljsdN_-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-10" value="下载平台证书/v3/certificates接口" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-11" value="请求头参数" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XcywVWifhoP0tnljsdN_-13" target="XcywVWifhoP0tnljsdN_-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-13" value="Authorization签名认证信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-23" value="计算签名值：使用商户私钥对待签名串进行SHA256 with RSA签名，并对签名结果进行Base64编码得到签名值。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="300" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
