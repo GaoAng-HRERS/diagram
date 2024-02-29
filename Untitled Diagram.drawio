@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-29T09:37:48.537Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ewSZO4f73FcREiF6IVDI" version="22.1.21" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2024-02-29T10:13:04.008Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="vLLV3375T-jyXtMzSFYf" version="22.1.21" type="github" pages="10">
   <diagram id="29DX_shyAP1snW-bjdit" name="多保单">
     <mxGraphModel dx="2261" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1970,10 +1970,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XcywVWifhoP0tnljsdN_-10" value="下载平台证书/v3/certificates接口" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="130" width="120" height="60" as="geometry" />
+          <mxGeometry x="50" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XcywVWifhoP0tnljsdN_-11" target="XcywVWifhoP0tnljsdN_-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="XcywVWifhoP0tnljsdN_-11" target="XcywVWifhoP0tnljsdN_-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XcywVWifhoP0tnljsdN_-11" target="XcywVWifhoP0tnljsdN_-37">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XcywVWifhoP0tnljsdN_-11" value="请求头参数" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="230" width="120" height="60" as="geometry" />
+          <mxGeometry x="50" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XcywVWifhoP0tnljsdN_-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XcywVWifhoP0tnljsdN_-13" target="XcywVWifhoP0tnljsdN_-23">
           <mxGeometry relative="1" as="geometry" />
@@ -1983,6 +1992,39 @@
         </mxCell>
         <mxCell id="XcywVWifhoP0tnljsdN_-23" value="计算签名值：使用商户私钥对待签名串进行SHA256 with RSA签名，并对签名结果进行Base64编码得到签名值。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="XcywVWifhoP0tnljsdN_-30" target="XcywVWifhoP0tnljsdN_-31" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-30" value="Wechatpay-Serial【微信支付平台证书序列号】" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-31" value="【微信支付平台证书序列号】需要请求/v3/certificates接口获取" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="XcywVWifhoP0tnljsdN_-33" target="XcywVWifhoP0tnljsdN_-34" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-33" value="Authorization签名认证信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-34" value="计算签名值：使用商户私钥对待签名串进行SHA256 with RSA签名，并对签名结果进行Base64编码得到签名值。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XcywVWifhoP0tnljsdN_-37" target="XcywVWifhoP0tnljsdN_-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-37" value="发送请求" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XcywVWifhoP0tnljsdN_-39" target="XcywVWifhoP0tnljsdN_-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-39" value="响应请求" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XcywVWifhoP0tnljsdN_-41" value="1.微信支付平台证书序列号&lt;br&gt;2.平台证书公钥" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="710" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
